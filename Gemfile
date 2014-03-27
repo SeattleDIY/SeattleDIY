@@ -33,7 +33,11 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'guard-rspec'
+  gem 'listen'
+  gem 'notify'
   gem 'rspec-rails'
+  gem 'zeus'
 end
 
 # Use ActiveModel has_secure_password
