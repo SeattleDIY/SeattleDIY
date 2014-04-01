@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Seattlediy::Application.load_tasks
+DIY::Application.load_tasks
