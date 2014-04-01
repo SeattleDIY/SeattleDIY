@@ -27,6 +27,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.2)
     atomic (1.1.16)
+    bcrypt (3.1.7)
     builder (3.1.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -41,6 +42,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    devise (3.2.4)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.0.2)
@@ -79,6 +86,7 @@ GEM
     multi_json (1.9.2)
     nio4r (1.0.0)
     notify (0.5.2)
+    orm_adapter (0.5.0)
     polyglot (0.3.4)
     pry (0.9.12.6)
       coderay (~> 1.0)
@@ -154,6 +162,8 @@ GEM
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    warden (1.2.3)
+      rack (>= 1.0)
     zeus (0.13.3)
       method_source (>= 0.6.7)
 
@@ -162,6 +172,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  devise
   guard-rspec
   jbuilder (~> 1.2)
   jquery-rails
