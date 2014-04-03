@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Seattlediy::Application.config.secret_key_base = '77bc02106fde7bba562267bc0a2a116ec0b77ed164c03b8115f0060e3965eb07510bdda42f4bab1ba0fbbcf7ea40c43c2d67cca771f87eb06c360eaa59e86d11'
+DIY::Application.config.secret_key_base = '77bc02106fde7bba562267bc0a2a116ec0b77ed164c03b8115f0060e3965eb07510bdda42f4bab1ba0fbbcf7ea40c43c2d67cca771f87eb06c360eaa59e86d11'
