@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 gem 'jbuilder', '~> 1.2'

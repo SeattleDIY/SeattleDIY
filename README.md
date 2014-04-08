@@ -20,3 +20,11 @@ bundle exec guard start
 ```
 
 At the guard prompt, press Enter to run the tests. Or, change a spec file to re-run.
+
+Mail
+====
+
+1. `gem install mailcatcher`
+2. `mailcatcher`
+3. Go to http://localhost:1080/
+4. Send mail through smtp://localhost:1025
