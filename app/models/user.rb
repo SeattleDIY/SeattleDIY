@@ -8,4 +8,10 @@ class User < ActiveRecord::Base
          :trackable,
          :validatable,
          :confirmable
+
+  has_and_belongs_to_many :roles
+
+  def role?(role)
+    return !!self.roles.where(name: role.to_s).first
+  end
 end
